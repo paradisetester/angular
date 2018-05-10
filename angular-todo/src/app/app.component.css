@@ -1,0 +1,35 @@
+ul.todo-list {
+    padding: 0;
+    list-style: none;
+}
+
+section.todoapp {
+    max-width: 300px;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.header .new-todo {
+    height: 30px;
+    padding-left: 9px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+ul.todo-list li {
+    float: left;
+    margin: 4px 0;
+    width: 100%;
+    border:  1px solid #ccc;
+    padding:  7px;
+    box-sizing:  border-box;
+}
+
+ul.todo-list li button {
+    float:  right;
+}
+
+li.completed {
+    background: #dedbdb;
+}
